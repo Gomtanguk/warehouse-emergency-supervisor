@@ -107,5 +107,6 @@ ros2 run warehouse_emergency_supervisor warehouse_supervisor --help
 
 ## 참고
 
-- 발표자료와 시연 자료는 `docs/`에 `warehouse-emergency-supervisor-*` 형식으로 정리했습니다.
+- 데모 영상은 `docs/warehouse-emergency-supervisor-demo-video.mp4`로 관리합니다.
+- 발표자료와 보고서는 로컬 `docs/`에 `warehouse-emergency-supervisor-*` 형식으로 정리했습니다.
 - 코드와 런타임 자산은 `src/warehouse_emergency_supervisor/` 아래만 보면 됩니다.
