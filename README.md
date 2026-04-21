@@ -2,6 +2,12 @@
 
 Isaac Sim과 ROS 2를 함께 사용하는 창고 사고 대응 시뮬레이션 프로젝트입니다. 드론 순찰, 바코드 스캔, 가스 사고 감지, 모바일 매니퓰레이터 출동, 밸브 조작 시퀀스를 하나의 슈퍼바이저 스크립트로 통합합니다.
 
+## Quick Summary
+
+- Domain: 창고 사고 대응 슈퍼바이저 시뮬레이션
+- Stack: Isaac Sim, ROS 2 Humble, Python, USD, Action Graph
+- Key Entry Point: `integrated_warehouse_supervisor_v6.py`
+
 ## 구조
 
 ```text
@@ -101,5 +107,5 @@ ros2 run warehouse_emergency_supervisor warehouse_supervisor --help
 
 ## 참고
 
-- 발표자료와 시연 영상은 `docs/`에 분리해 두었습니다.
+- 발표자료와 시연 자료는 `docs/`에 `warehouse-emergency-supervisor-*` 형식으로 정리했습니다.
 - 코드와 런타임 자산은 `src/warehouse_emergency_supervisor/` 아래만 보면 됩니다.
