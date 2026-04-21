@@ -7,8 +7,6 @@ __pycache__/
 *.zip
 *.pptx
 *.pdf
-!docs/
-!docs/*.mp4
 
 # Editor
 .vscode/
